@@ -6,7 +6,10 @@ using namespace std;
 int main() {
     string filename;
     cout << "Enter your file name: ";
-    cin >> filename;   
+    cin >> filename;
+
+    ifstream file(filename); 
+
     string word, input;
     cout << "Enter your word: ";
     cin >> input;
